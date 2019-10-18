@@ -1,7 +1,7 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+/*Malika Sharma
+ * 18/10/2019
+ *Array Program 3
+ * 
  */
 
 package arrayprogram3;
@@ -19,11 +19,12 @@ public class ArrayProgram3 {
      */
     public static void main(String[] args) {
         Scanner keyedInput = new Scanner (System.in);
-        
+        //introduce variables
         double [ ] marks = {65.8,44.8,88.6};
         double total=0;
         double average;
         
+        //Output 
         System.out.println("These are the marks:");
         for (int i = 0; i<=2; i= i + 1)
         {
